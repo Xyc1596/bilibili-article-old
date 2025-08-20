@@ -3,10 +3,10 @@ B站专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibi
 能够区分专栏与一般动态图文，并且只对前者进行操作。
 
 <!-- ## 安装
-(GreasyFork)[greasyfork.org/zh-CN/scripts/]
+(GreasyFork)[greasyfork.org/zh-CN/scripts/1506999] -->
 
 ## 源码
-(GitHub)[github.com/Xyc1596/bilibili-article-old/blob/main/bilibili-article-old.js] -->
+(GitHub)[github.com/Xyc1596/bilibili-article-old]
 
 ## 原理
 从网页源码的中获取原始专栏页面的cv号，并重定向至原页面，效果与点击“回到旧版”按钮相同。
