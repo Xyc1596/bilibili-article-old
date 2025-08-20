@@ -4,6 +4,7 @@
 // @version      1.0.0
 // @description  Bilibili专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibili.com/read/cv*）
 // @author       Xyc1596
+// @license      MIT
 // @match        *://www.bilibili.com/opus/*
 // @icon         https://www.bilibili.com/favicon.ico
 // @grant        none
