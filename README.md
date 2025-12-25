@@ -12,7 +12,7 @@ www.bilibili.com/opus/* -> www.bilibili.com/read/cv*
 能够区分专栏与一般动态图文，并且只对前者进行重定向操作。
 
 ## 安装
-[GreasyFork](https://greasyfork.org/zh-CN/scripts/1506999-Bilibili专栏自动回到旧版)
+[GreasyFork](https://greasyfork.org/zh-CN/scripts/546547-Bilibili专栏自动回到旧版)
 
 ## 源码
 [GitHub](https://github.com/Xyc1596/bilibili-article-old)
