@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Bilibili专栏自动回到旧版
+// @name         Bilibili专栏自动回到旧版（已失效）
 // @namespace    http://tampermonkey.net/
 // @version      1.0.0
 // @description  Bilibili专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibili.com/read/cv*）
