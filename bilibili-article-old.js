@@ -16,7 +16,7 @@
         console.log(window.__INITIAL_STATE__);
         const basic = window.__INITIAL_STATE__.detail.basic;
         if (basic.comment_type == 12) {
-            let new_href = "https://www.bilibili.com/read/cv" + basic.rid_str;
+            let new_href = `https://www.bilibili.com/read/cv${basic.rid_str}/?opus_fallback=1`;
             window.location.href = new_href;
         }
     }

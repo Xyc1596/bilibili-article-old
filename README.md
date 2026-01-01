@@ -1,12 +1,15 @@
-# Bilibili专栏自动回到旧版（已失效）
+# Bilibili专栏自动回到旧版
 
-> [!CAUTION]
-> **2025/12/25更新**：由于近期更新，专栏页面的回到旧版按钮已消失，旧版页面的网址现在会强制跳转至新版页面（301 Moved Permanently），故本项目已失效。
+> [!NOTE]
+>
+> ~~**2025/12/25更新**：由于近期更新，专栏页面的回到旧版按钮已消失，旧版页面的网址现在会强制跳转至新版页面（301 Moved Permanently），故本项目已失效。~~
+>
+> **2026/01/01更新**：旧版页面已恢复（网址有变化），上述问题现已解决。
 
 B站专栏自动重定向至旧版页面
 
 ```
-www.bilibili.com/opus/* -> www.bilibili.com/read/cv*
+www.bilibili.com/opus/* -> www.bilibili.com/read/cv*/?opus_fallback=1
 ```
 
 能够区分专栏与一般动态图文，并且只对前者进行重定向操作。
