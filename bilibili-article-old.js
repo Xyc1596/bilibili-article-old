@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bilibili专栏自动回到旧版（已失效）
 // @namespace    http://tampermonkey.net/
-// @version      1.0.1
+// @version      1.1.0
 // @description  Bilibili专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibili.com/read/cv*）
 // @author       Xyc1596
 // @license      MIT
@@ -16,7 +16,7 @@
         console.log(window.__INITIAL_STATE__);
         const basic = window.__INITIAL_STATE__.detail.basic;
         if (basic.comment_type == 12) {
-            let new_href = "https://www.bilibili.com/read/cv" + basic.rid_str;
+            let new_href = `https://www.bilibili.com/read/cv${basic.rid_str}/?opus_fallback=1`;
             window.location.href = new_href;
         }
     }
