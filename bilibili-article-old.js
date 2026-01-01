@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Bilibili专栏自动回到旧版
 // @namespace    http://tampermonkey.net/
-// @version      1.1.0
-// @description  Bilibili专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibili.com/read/cv*）
+// @version      1.1.1
+// @description  Bilibili专栏自动重定向至旧版页面（www.bilibili.com/opus/* -> www.bilibili.com/read/cv*/?opus_fallback=1）
 // @author       Xyc1596
 // @license      MIT
 // @match        *://www.bilibili.com/opus/*
